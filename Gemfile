@@ -34,7 +34,7 @@ group :development do
   gem 'cocoapods-dependencies', '~> 1.0.beta.1'
 
   # Pin activesupport to < 7 because we still test with Ruby 2.6 in CI.
-  gem 'activesupport', '> 5', '< 7'
+  gem 'activesupport', '>= 6.1.7.5', '< 7'
   gem 'bacon', :git => 'https://github.com/leahneukirchen/bacon.git'
   gem 'mocha', '< 1.5'
   gem 'mocha-on-bacon'
